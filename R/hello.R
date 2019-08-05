@@ -25,3 +25,37 @@ ChangingMyVar <- function(number){
 ChangingMyVar(10)
 ChangingMyVar(nm = 10)
 ChangingMyVar(nm <- 10)
+
+
+# Arithmetic operators
+
+# + - * / ^
+# %%     %/%
+
+
+7 %% 2
+7 %/% 2
+
+# Relational Operators
+
+# < > <= >= == !=
+
+5 > "a"
+
+5 == "5"
+
+identical("5", 5)
+identical(5, 5)
+identical(5.0, 5)
+
+
+# Logical Operators
+
+# ! | & || &&
+
+!TRUE
+
+c(TRUE, FALSE, TRUE) | c(FALSE, TRUE, TRUE)
+
+c(TRUE, FALSE, TRUE) || c(FALSE, TRUE, TRUE)
+
