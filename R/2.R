@@ -76,3 +76,16 @@ if(terms == 1) {
     count = count + 1
   }
 }
+
+
+num.a = 0
+num.b = 1
+print(num.a)
+print(num.b)
+counter = 2
+while(counter <= 100){
+  current.fib = num.a + num.b
+  print(current.fib)
+  num.a = num.b
+  counter = counter + 1
+}
